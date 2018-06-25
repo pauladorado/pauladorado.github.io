@@ -21,7 +21,8 @@ class PauladoradoComApp extends PolymerElement {
             }
 
             header img {
-                max-width: 70%;
+                width: 75%;
+                height: 75%;
             }
 
             footer {
