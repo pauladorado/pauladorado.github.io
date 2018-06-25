@@ -1,0 +1,12 @@
+{
+  "npm": true,
+  "sources": [
+    "img/**/*",
+    "src/**/*"
+  ],
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  }
+}
