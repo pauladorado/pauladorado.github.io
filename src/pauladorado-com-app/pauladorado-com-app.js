@@ -1,13 +1,13 @@
-import 'fontawesome-icon';
-import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-
+import "../../node_modules/fontawesome-icon/fontawesome-icon.js";
+import { html, PolymerElement } from "../../node_modules/@polymer/polymer/polymer-element.js";
 /**
 * @customElement
 * @polymer
 */
+
 class PauladoradoComApp extends PolymerElement {
-    static get template() {
-        return html`
+  static get template() {
+    return html`
         <style>
             :host {
                 max-height: 80%;
@@ -21,8 +21,7 @@ class PauladoradoComApp extends PolymerElement {
             }
 
             header img {
-                width: 75%;
-                height: 75%;
+                max-width: 70%;
             }
 
             footer {
@@ -61,7 +60,8 @@ class PauladoradoComApp extends PolymerElement {
             </a>
         </footer>
         `;
-    }
+  }
+
 }
 
 window.customElements.define('pauladorado-com-app', PauladoradoComApp);
