@@ -1,0 +1,4 @@
+[submodule "build"]
+	path = build/default
+	url = https://pauladorado@github.com/pauladorado/pauladorado.github.io
+	branch = gh-pages
