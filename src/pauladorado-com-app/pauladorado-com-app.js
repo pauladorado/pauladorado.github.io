@@ -13,6 +13,7 @@ class PauladoradoComApp extends PolymerElement {
                 max-height: 80%;
                 display: grid;
                 grid-template: 1fr 50px / 1fr;
+                --logo-scale: 75%;
             }
 
             header {
@@ -21,8 +22,14 @@ class PauladoradoComApp extends PolymerElement {
             }
 
             header img {
-                width: 75%;
-                height: 75%;
+                width: var(--logo-scale);
+                height: var(--logo-scale);
+            }
+
+            @-moz-document url-prefix() {
+                header img {
+                    height: auto;
+                }
             }
 
             footer {
